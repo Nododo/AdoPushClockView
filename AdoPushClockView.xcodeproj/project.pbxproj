@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		392219A41DFAAAFE00D71B76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 392219A31DFAAAFE00D71B76 /* main.m */; };
+		392219A71DFAAAFE00D71B76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 392219A61DFAAAFE00D71B76 /* AppDelegate.m */; };
+		392219AA1DFAAAFE00D71B76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 392219A91DFAAAFE00D71B76 /* ViewController.m */; };
+		392219AD1DFAAAFE00D71B76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392219AB1DFAAAFE00D71B76 /* Main.storyboard */; };
+		392219AF1DFAAAFE00D71B76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 392219AE1DFAAAFE00D71B76 /* Assets.xcassets */; };
+		392219B21DFAAAFE00D71B76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392219B01DFAAAFE00D71B76 /* LaunchScreen.storyboard */; };
+		392219BB1DFAAB1F00D71B76 /* AdoPushClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 392219BA1DFAAB1F00D71B76 /* AdoPushClockView.m */; };
+		392219D91DFAAB2800D71B76 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 392219BD1DFAAB2800D71B76 /* LICENSE */; };
+		392219DA1DFAAB2800D71B76 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 392219C01DFAAB2800D71B76 /* MASCompositeConstraint.m */; };
+		392219DB1DFAAB2800D71B76 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 392219C31DFAAB2800D71B76 /* MASConstraint.m */; };
+		392219DC1DFAAB2800D71B76 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 392219C51DFAAB2800D71B76 /* MASConstraintMaker.m */; };
+		392219DD1DFAAB2800D71B76 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 392219C71DFAAB2800D71B76 /* MASLayoutConstraint.m */; };
+		392219DE1DFAAB2800D71B76 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 392219CB1DFAAB2800D71B76 /* MASViewAttribute.m */; };
+		392219DF1DFAAB2800D71B76 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 392219CD1DFAAB2800D71B76 /* MASViewConstraint.m */; };
+		392219E01DFAAB2800D71B76 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 392219CF1DFAAB2800D71B76 /* NSArray+MASAdditions.m */; };
+		392219E11DFAAB2800D71B76 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 392219D21DFAAB2800D71B76 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		392219E21DFAAB2800D71B76 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 392219D41DFAAB2800D71B76 /* View+MASAdditions.m */; };
+		392219E31DFAAB2800D71B76 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 392219D71DFAAB2800D71B76 /* ViewController+MASAdditions.m */; };
+		392219E41DFAAB2800D71B76 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 392219D81DFAAB2800D71B76 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3922199F1DFAAAFE00D71B76 /* AdoPushClockView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdoPushClockView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		392219A31DFAAAFE00D71B76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		392219A51DFAAAFE00D71B76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		392219A61DFAAAFE00D71B76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		392219A81DFAAAFE00D71B76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		392219A91DFAAAFE00D71B76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		392219AC1DFAAAFE00D71B76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		392219AE1DFAAAFE00D71B76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		392219B11DFAAAFE00D71B76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		392219B31DFAAAFE00D71B76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		392219B91DFAAB1F00D71B76 /* AdoPushClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdoPushClockView.h; sourceTree = "<group>"; };
+		392219BA1DFAAB1F00D71B76 /* AdoPushClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdoPushClockView.m; sourceTree = "<group>"; };
+		392219BD1DFAAB2800D71B76 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		392219BF1DFAAB2800D71B76 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		392219C01DFAAB2800D71B76 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		392219C11DFAAB2800D71B76 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		392219C21DFAAB2800D71B76 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		392219C31DFAAB2800D71B76 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		392219C41DFAAB2800D71B76 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		392219C51DFAAB2800D71B76 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		392219C61DFAAB2800D71B76 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		392219C71DFAAB2800D71B76 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		392219C81DFAAB2800D71B76 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		392219C91DFAAB2800D71B76 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		392219CA1DFAAB2800D71B76 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		392219CB1DFAAB2800D71B76 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		392219CC1DFAAB2800D71B76 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		392219CD1DFAAB2800D71B76 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		392219CE1DFAAB2800D71B76 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		392219CF1DFAAB2800D71B76 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		392219D01DFAAB2800D71B76 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		392219D11DFAAB2800D71B76 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		392219D21DFAAB2800D71B76 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		392219D31DFAAB2800D71B76 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		392219D41DFAAB2800D71B76 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		392219D51DFAAB2800D71B76 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		392219D61DFAAB2800D71B76 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		392219D71DFAAB2800D71B76 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		392219D81DFAAB2800D71B76 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3922199C1DFAAAFE00D71B76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		392219961DFAAAFE00D71B76 = {
+			isa = PBXGroup;
+			children = (
+				392219A11DFAAAFE00D71B76 /* AdoPushClockView */,
+				392219A01DFAAAFE00D71B76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		392219A01DFAAAFE00D71B76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3922199F1DFAAAFE00D71B76 /* AdoPushClockView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		392219A11DFAAAFE00D71B76 /* AdoPushClockView */ = {
+			isa = PBXGroup;
+			children = (
+				392219A51DFAAAFE00D71B76 /* AppDelegate.h */,
+				392219A61DFAAAFE00D71B76 /* AppDelegate.m */,
+				392219A81DFAAAFE00D71B76 /* ViewController.h */,
+				392219A91DFAAAFE00D71B76 /* ViewController.m */,
+				392219B91DFAAB1F00D71B76 /* AdoPushClockView.h */,
+				392219BA1DFAAB1F00D71B76 /* AdoPushClockView.m */,
+				392219BC1DFAAB2800D71B76 /* Masonry */,
+				392219AB1DFAAAFE00D71B76 /* Main.storyboard */,
+				392219AE1DFAAAFE00D71B76 /* Assets.xcassets */,
+				392219B01DFAAAFE00D71B76 /* LaunchScreen.storyboard */,
+				392219B31DFAAAFE00D71B76 /* Info.plist */,
+				392219A21DFAAAFE00D71B76 /* Supporting Files */,
+			);
+			path = AdoPushClockView;
+			sourceTree = "<group>";
+		};
+		392219A21DFAAAFE00D71B76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				392219A31DFAAAFE00D71B76 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		392219BC1DFAAB2800D71B76 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				392219BD1DFAAB2800D71B76 /* LICENSE */,
+				392219BE1DFAAB2800D71B76 /* Masonry */,
+				392219D81DFAAB2800D71B76 /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		392219BE1DFAAB2800D71B76 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				392219BF1DFAAB2800D71B76 /* MASCompositeConstraint.h */,
+				392219C01DFAAB2800D71B76 /* MASCompositeConstraint.m */,
+				392219C11DFAAB2800D71B76 /* MASConstraint+Private.h */,
+				392219C21DFAAB2800D71B76 /* MASConstraint.h */,
+				392219C31DFAAB2800D71B76 /* MASConstraint.m */,
+				392219C41DFAAB2800D71B76 /* MASConstraintMaker.h */,
+				392219C51DFAAB2800D71B76 /* MASConstraintMaker.m */,
+				392219C61DFAAB2800D71B76 /* MASLayoutConstraint.h */,
+				392219C71DFAAB2800D71B76 /* MASLayoutConstraint.m */,
+				392219C81DFAAB2800D71B76 /* Masonry.h */,
+				392219C91DFAAB2800D71B76 /* MASUtilities.h */,
+				392219CA1DFAAB2800D71B76 /* MASViewAttribute.h */,
+				392219CB1DFAAB2800D71B76 /* MASViewAttribute.m */,
+				392219CC1DFAAB2800D71B76 /* MASViewConstraint.h */,
+				392219CD1DFAAB2800D71B76 /* MASViewConstraint.m */,
+				392219CE1DFAAB2800D71B76 /* NSArray+MASAdditions.h */,
+				392219CF1DFAAB2800D71B76 /* NSArray+MASAdditions.m */,
+				392219D01DFAAB2800D71B76 /* NSArray+MASShorthandAdditions.h */,
+				392219D11DFAAB2800D71B76 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				392219D21DFAAB2800D71B76 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				392219D31DFAAB2800D71B76 /* View+MASAdditions.h */,
+				392219D41DFAAB2800D71B76 /* View+MASAdditions.m */,
+				392219D51DFAAB2800D71B76 /* View+MASShorthandAdditions.h */,
+				392219D61DFAAB2800D71B76 /* ViewController+MASAdditions.h */,
+				392219D71DFAAB2800D71B76 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3922199E1DFAAAFE00D71B76 /* AdoPushClockView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 392219B61DFAAAFE00D71B76 /* Build configuration list for PBXNativeTarget "AdoPushClockView" */;
+			buildPhases = (
+				3922199B1DFAAAFE00D71B76 /* Sources */,
+				3922199C1DFAAAFE00D71B76 /* Frameworks */,
+				3922199D1DFAAAFE00D71B76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdoPushClockView;
+			productName = AdoPushClockView;
+			productReference = 3922199F1DFAAAFE00D71B76 /* AdoPushClockView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		392219971DFAAAFE00D71B76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				TargetAttributes = {
+					3922199E1DFAAAFE00D71B76 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3922199A1DFAAAFE00D71B76 /* Build configuration list for PBXProject "AdoPushClockView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 392219961DFAAAFE00D71B76;
+			productRefGroup = 392219A01DFAAAFE00D71B76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3922199E1DFAAAFE00D71B76 /* AdoPushClockView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3922199D1DFAAAFE00D71B76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392219B21DFAAAFE00D71B76 /* LaunchScreen.storyboard in Resources */,
+				392219AF1DFAAAFE00D71B76 /* Assets.xcassets in Resources */,
+				392219D91DFAAB2800D71B76 /* LICENSE in Resources */,
+				392219AD1DFAAAFE00D71B76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3922199B1DFAAAFE00D71B76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392219DC1DFAAB2800D71B76 /* MASConstraintMaker.m in Sources */,
+				392219AA1DFAAAFE00D71B76 /* ViewController.m in Sources */,
+				392219A71DFAAAFE00D71B76 /* AppDelegate.m in Sources */,
+				392219DB1DFAAB2800D71B76 /* MASConstraint.m in Sources */,
+				392219E31DFAAB2800D71B76 /* ViewController+MASAdditions.m in Sources */,
+				392219DD1DFAAB2800D71B76 /* MASLayoutConstraint.m in Sources */,
+				392219E01DFAAB2800D71B76 /* NSArray+MASAdditions.m in Sources */,
+				392219DF1DFAAB2800D71B76 /* MASViewConstraint.m in Sources */,
+				392219DE1DFAAB2800D71B76 /* MASViewAttribute.m in Sources */,
+				392219E21DFAAB2800D71B76 /* View+MASAdditions.m in Sources */,
+				392219BB1DFAAB1F00D71B76 /* AdoPushClockView.m in Sources */,
+				392219A41DFAAAFE00D71B76 /* main.m in Sources */,
+				392219E41DFAAB2800D71B76 /* README.md in Sources */,
+				392219DA1DFAAB2800D71B76 /* MASCompositeConstraint.m in Sources */,
+				392219E11DFAAB2800D71B76 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		392219AB1DFAAAFE00D71B76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				392219AC1DFAAAFE00D71B76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		392219B01DFAAAFE00D71B76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				392219B11DFAAAFE00D71B76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		392219B41DFAAAFE00D71B76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		392219B51DFAAAFE00D71B76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		392219B71DFAAAFE00D71B76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdoPushClockView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nododo.www.AdoPushClockView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		392219B81DFAAAFE00D71B76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdoPushClockView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nododo.www.AdoPushClockView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3922199A1DFAAAFE00D71B76 /* Build configuration list for PBXProject "AdoPushClockView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392219B41DFAAAFE00D71B76 /* Debug */,
+				392219B51DFAAAFE00D71B76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		392219B61DFAAAFE00D71B76 /* Build configuration list for PBXNativeTarget "AdoPushClockView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392219B71DFAAAFE00D71B76 /* Debug */,
+				392219B81DFAAAFE00D71B76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 392219971DFAAAFE00D71B76 /* Project object */;
+}
